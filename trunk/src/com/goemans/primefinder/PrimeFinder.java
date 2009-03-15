@@ -30,7 +30,7 @@ public class PrimeFinder extends Activity
 			{
 			}	
 		}
-		
+
 		public void search( String space, int size ) throws Exception
 		{
 			if( size > space.length() )
