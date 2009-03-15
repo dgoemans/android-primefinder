@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="explanation">Welcome to Prime Finder. \nEnter a series of numbers below and select what size prime you are searching for. Prime Finder will either return the first prime or let you know that there isn't one</string>
+    <string name="app_name">PrimeFinder</string>
+<string name="buttonText">Find Them!</string>
+<string name="count_label">Size of Prime:</string>
+</resources>

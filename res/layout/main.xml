@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/explanation" />
+	<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="fill"><EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/SearchSpace" android:layout_gravity="left" android:maxWidth="230.0sp" android:minWidth="230.0sp"></EditText>
+
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/GoButton" android:text="@string/buttonText"></Button>
+</LinearLayout>
+
+	
+	
+
+
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/count_label" android:layout_gravity="center" android:id="@+id/CountLabel"></TextView>
+<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/PrimeSize"></Spinner>
+</LinearLayout>
+
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ResultLabel"></TextView>
+<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ResultBox"></EditText>
+</LinearLayout>
+</LinearLayout>
