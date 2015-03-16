@@ -1,0 +1,1 @@
+This application allows you to enter ( or paste ) and search space of numbers for a prime number of given length. The original idea was inspired whilst solving the riddle on the Abstruse Goose webcomic: http://abstrusegoose.com/126
